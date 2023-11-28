@@ -43,7 +43,3 @@ https://stephen-scheiman.github.io/04-challenge
 5- Hoping for feedback from the graders on how to fix the high scores
 6- Weirdness with Git renaming assets to Assets and breaking my app
 
-=======
-# JavaScriptQuiz
-A Q&amp;A application to test your JS knowledge
->>>>>>> 339b38b (Initial commit)
