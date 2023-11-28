@@ -29,11 +29,11 @@ THEN I can save my initials and my score
 
 ## Repository
 
-https://github.com/stephen-scheiman/04-challenge
+https://github.com/stephen-scheiman/JavaScriptQuiz
 
 ## Application URL
 
-https://stephen-scheiman.github.io/04-challenge
+https://stephen-scheiman.github.io/JavaScriptQuiz/
 
 ## Lessons Learned
 1- Struggling with the high scores list, likey have to start over
