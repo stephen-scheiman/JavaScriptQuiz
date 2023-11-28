@@ -1,0 +1,111 @@
+:root {
+  --main-background-color: antiquewhite;
+  --text-color: darkblue;
+  --border-color: black;
+  --button-color: lightblue;
+}
+
+body {
+  background-color: var(--main-background-color);
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  display: flex;
+  flex-direction: column;
+  max-width: 1200px;
+  font-size: 20px;
+}
+
+ol {
+  margin: 0px;
+  padding: 0px;
+}
+
+li {
+  max-width: max-content;
+  border: 1px solid black;
+  border-radius: 5px;
+  margin-top: 5px;
+  font-size: 20px;
+  background-color: var(--button-color);
+  cursor: pointer;
+  text-decoration: none;
+  padding: 0px 10px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#questions {
+  max-width: max-content;
+  border: 1px solid var(--border-color);
+  border-radius: 5px;
+  font-size: 25px;
+  background-color: var(--button-color);
+  padding: 0px 10px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h1 {
+ font-size: 250%;
+ text-align: center;
+}
+
+hr {
+  margin: 25px 0px;
+}
+
+#startButton {
+  display:block;
+  border: 1px solid var(--border-color);
+  border-radius: 5px;
+  background-color: var(--button-color);
+  padding: 10px;
+  text-align: center;
+  font-size: 25px;
+  cursor: pointer;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 25px;
+}
+
+#feedbackBox {
+  margin: 10px 15px;
+  text-align: center;
+  display: inline-block;
+  max-width: max-content;
+  font-size: 25px;
+  cursor: pointer;
+  margin-top: 50px;
+  margin-left: 450px;  
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#scoreCard {
+  display: flex;
+  border: 1px solid var(--border-color);
+  border-radius: 5px;
+  background-color: var(--button-color);
+  margin: 10px 15px;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+}
+
+#scoresList{
+  display: flex;
+  border: 1px solid var(--border-color);
+  border-radius: 5px;
+  background-color: var(--button-color);
+  margin: 10px 15px;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+}

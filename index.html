@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <title>JavasScript Quiz Application</title>
+  </head>
+  <body>
+    <header>
+      <div>View High Scores</div>
+      <h1>JavaScript Quiz Application</h1>
+      <div id="timerWindow">Time left: 60 seconds</div>
+    </header>
+    <hr />
+    <main>
+      <div id="scoreCard"> </div>
+     
+      <button type="button" id="startButton">Start Quiz</button>
+      <div id="questions"></div>
+      <ol id="choices">
+        <li id="choiceOne"></li>
+        <li id="choiceTwo"></li>
+        <li id="choiceThree"></li>
+        <li id="choiceFour"></li>
+      </ol>
+      <hr />
+      <div id="scoresList">
+        <form id="userNameForm" method="POST">
+          <label for="userName">Enter your first name: </label>
+          <input type="text" name="userName" id="userName" />
+        </form>
+        <p></p>
+        <ol id="list">High Scores</ol>
+      </div>
+      <div id="feedbackBox">Your answer is:</div>
+      <audio id="audio" src="./assets/mixkit-game-click-1114.wav"></audio>
+      <script src="./assets/js/script.js"></script>
+    </main>
+  </body>
+</html>
