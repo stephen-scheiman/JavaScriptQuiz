@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ## User Story
 
 ```
@@ -36,10 +35,8 @@ https://github.com/stephen-scheiman/JavaScriptQuiz
 https://stephen-scheiman.github.io/JavaScriptQuiz/
 
 ## Lessons Learned
+```
 1- Struggling with the high scores list, likey have to start over
 2- Keep track of parameters that are being passed
 3- Set variables at the global context when possible
-4- Look into using jQuery for high scores
-5- Hoping for feedback from the graders on how to fix the high scores
-6- Weirdness with Git renaming assets to Assets and breaking my app
-
+```
